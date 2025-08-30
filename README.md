@@ -1,49 +1,61 @@
-# Ultimate coding Platform
+# ⚡ Code-forge  
+_A modern coding practice and problem-solving platform_
 
-## Project info
+---
 
+## 📌 Overview  
 
+**Code-forge** is an interactive platform designed for programmers to **practice coding, test solutions, and explore problems** in a clean, modern interface. It provides a seamless developer experience with a **real-time editor, syntax highlighting, problem filtering, and instant feedback system**.  
 
-## How can I edit this code?
+Built with **React + TypeScript** on the frontend, styled using **Tailwind CSS + shadcn/ui**, and powered by **Vite** for lightning-fast builds, Code-forge is highly performant and developer-friendly.  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Features  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 🖊️ **Real-time Code Editor** – Write, edit, and preview code instantly.  
+- 🌈 **Syntax Highlighting** – Powered by Monaco/CodeMirror for a professional IDE-like experience.  
+- 🧩 **Problem Library** – Explore categorized coding challenges.  
+- 🔍 **Problem Filtering & Search** – Find problems by difficulty, tags, or keywords.  
+- 📊 **Instant Feedback** – Test cases run instantly and show results.  
+- 📱 **Responsive Design** – Optimized for desktop & mobile.  
+- 🎨 **Modern UI** – Styled with Tailwind + shadcn/ui for a polished developer experience.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Tech Stack  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+| Layer        | Technology |
+|--------------|------------|
+| Frontend     | React + TypeScript |
+| Build Tool   | Vite |
+| UI/Styling   | Tailwind CSS + shadcn/ui |
+| Code Editor  | Monaco Editor / CodeMirror |
+| Versioning   | Git & GitHub |
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚙️ How It Works  
 
-**Use GitHub Codespaces**
+1. **Choose a Problem** → Browse from the library of coding challenges.  
+2. **Write Your Code** → Use the built-in editor with syntax highlighting.  
+3. **Run & Test** → Submit your code to run against sample test cases.  
+4. **Get Feedback** → See if your solution passes or fails instantly.  
+5. **Iterate & Improve** → Refactor and resubmit until your solution is perfect.  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📂 Project Structure  
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+Code-forge/
+│── public/           # Static assets  
+│── src/              # Application source code  
+│   ├── components/   # Reusable UI components  
+│   ├── pages/        # Problem pages & editor views  
+│   ├── utils/        # Helper functions  
+│   ├── App.tsx       # Main app component  
+│   └── main.tsx      # React entry point  
+│── tailwind.config.ts # Tailwind configuration  
+│── vite.config.ts     # Vite build config  
+│── package.json       # Dependencies  
